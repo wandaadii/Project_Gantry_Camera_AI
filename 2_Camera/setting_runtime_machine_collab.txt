@@ -1,0 +1,24 @@
+1. T4 GPU (Pilihan Terbaik untuk Mulai & Paling Efisien):
+2. L4 GPU (Pilihan Tepat untuk Resolusi Tinggi & Kecepatan):
+3. A100 GPU (Overkill / Terlalu Berlebihan)
+
+
+Berikut adalah urutan GPU yang tersedia di Google Colab, mulai dari yang paling standar hingga yang paling kuat untuk pemrosesan kecerdasan buatan:
+
+T4 GPU (Paling Standar)
+
+Kapasitas Memori (VRAM): 16 GB
+
+Karakteristik: Ini adalah GPU kelas dasar di Colab dengan arsitektur yang lebih lama (Turing). T4 sangat memadai untuk belajar coding, eksperimen machine learning biasa, pemrosesan data, dan training model skala kecil. Biaya compute units untuk menyewa GPU ini adalah yang paling murah.
+
+L4 GPU (Tinggi / Sangat Cepat)
+
+Kapasitas Memori (VRAM): 24 GB
+
+Karakteristik: Menggunakan arsitektur grafis modern (Ada Lovelace). GPU ini sangat efisien dan didesain khusus untuk menangani AI generatif (seperti pengolahan gambar dan teks). L4 sangat ideal dan cepat untuk melakukan fine-tuning pada model AI modern.
+
+A100 GPU (Paling Bagus / Kelas Berat)
+
+Kapasitas Memori (VRAM): 40 GB (versi standar di Colab)
+
+Karakteristik: Ini adalah GPU flagship kelas enterprise dan riset tingkat tinggi. Dengan tenaga komputasi dan memori yang masif, A100 ditujukan untuk melatih Large Language Models (LLM) atau memproses dataset berskala raksasa yang akan membuat GPU T4 dan L4 mengalami crash karena kehabisan memori. Biaya compute units untuk A100 adalah yang paling mahal dan cepat habis.
